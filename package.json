@@ -1,0 +1,23 @@
+{
+  "name": "postpone-powerup",
+  "version": "1.0.0",
+  "description": "Postpone card power-up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/html/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oibafs/postpone-powerup.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oibafs/postpone-powerup/issues"
+  },
+  "homepage": "https://github.com/oibafs/postpone-powerup#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

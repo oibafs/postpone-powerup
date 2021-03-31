@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# ParcelJS cache folder
+.cache/
+
+# ParcelJS build folder
+dist/
+
+# MacOS .DS_Store
+.DS_Store
