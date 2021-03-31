@@ -1,5 +1,8 @@
 var onBtnClick = function (t, opts) {
-  console.log('Someone clicked the button');
+  return t.card('all')
+    .then(function(card) {
+      console.log(card);
+    })
 };
 
 window.TrelloPowerUp.initialize({
