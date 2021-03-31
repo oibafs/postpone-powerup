@@ -1,5 +1,5 @@
 var onBtnClick = function (t, opts) {
-  return t.card('all')
+  return t.card('id')
     .then(function(card) {
       console.log(card);
     })
