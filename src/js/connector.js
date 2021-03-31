@@ -1,10 +1,16 @@
 var onBtnClick = function (t, opts) {
   return t.card('id')
     .then(function(card) {
-      fetch(`https://scheduler-ruby.vercel.app/api/1/trello/cards/${card.id}/postpone`)
-        .then(function(response) {
-          return response.json();
-        })
+      fetch(`https://scheduler-ruby.vercel.app/api/1/trello/cards/${card.id}/postpone`, {
+        method : 'PUT',
+        body : {},
+        headers : {
+          'Content-Type' : 'application/json'
+        }
+      })
+      .then(function(response) {
+        return response.json();
+      })
     })
 };
 
