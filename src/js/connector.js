@@ -1,7 +1,7 @@
 var onBtnClick = function (t, opts) {
   return t.card('id')
     .then(function(card) {
-      fetch(`https://https://scheduler-ruby.vercel.app/api/1/trello/cards/${card.id}/postpone`)
+      fetch(`https://scheduler-ruby.vercel.app/api/1/trello/cards/${card.id}/postpone`)
         .then(function(response) {
           return response.json();
         })
